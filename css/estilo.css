@@ -11,6 +11,25 @@ ul,
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.2em;
+  
+}
+
+li {
+  margin-right:10px;
+  display:inline-block;
+  *display:inline; /*IE7*/
+}
+
+.juegos {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  list-style-position: inside;
+  align-content: right;
+  display:inline-block;
+  *display:inline; /*IE7*/
+  *zoom:1; /*IE7*/
+  color:white;
+  margin-right:10px;
 }
 
 html,
