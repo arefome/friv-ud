@@ -6,6 +6,7 @@
 ---
 Proyecto final Modelos 2: FrivUD
 > Ariel Ernesto Forero Meneses  - **COD. 20181020135**
+
 > Jose David Ramirez Maldonado  - **COD. 20181020047**
 
 <br></br>
