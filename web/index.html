@@ -5,6 +5,8 @@
     <title>FrivUD</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="/eel.js"></script>
   </head>
 
   <body>
@@ -45,20 +47,31 @@
           <div>
             <ul class="juegos">
               <li>
-                <a href="juego_1/juego1.html">
+                <a href="juego_1/juego1.html" id="link_juego1" onclick="click_juego1()" target="_blank">
                   <img alt="miniatura juego 1" src="recursos/j1.png" width="400" height="300">                 
                 </a> 
               </li>
               <li>
-                <a href="juego_2/juego2.html">
+                <a href="juego_2/juego2.html" id="link_juego2" onclick="click_juego2()" target="_blank">
                   <img alt="miniatura juego 2" src="recursos/j2.png" width="400" height="300">
                 </a>                
+              </li>
+              <li>
+                <a href="juego_3/juego3.html" id="link_juego3" onclick="click_juego3()" target="_blank">
+                  <img alt="miniatura juego 3" src="recursos/j3.png" width="400" height="300">
+                </a>
               </li>
             </ul>
           </div>
         </section>
       </div>
       <footer>
+      
+          <textarea disabled id="num1">0</textarea>
+          <textarea disabled id="num2">0</textarea>
+          <textarea disabled id="num3">0</textarea>
+          <button type="button" id="add" onclick="addition()">Boton</button>
+        
         <p>Links de interes:</p>
         <nav>
           <a href="https://github.com/arefome/friv-ud"><strong>Github</strong></a>

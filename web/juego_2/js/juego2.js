@@ -34,11 +34,11 @@ for(var c=0; c<columnaLadrillos; c++) {
     }
 }
 
-document.addEventListener("keydown", flechaAbajo, false);
+document.addEventListener("keydown", flechaPresionada, false);
 document.addEventListener("keyup", flechaArriba, false);
 document.addEventListener("mousemove", movimientoMouse, false);
 
-function flechaAbajo(e) {
+function flechaPresionada(e) {
     if(e.keyCode == 39) {
         derecha = true;
     }
